@@ -9,7 +9,7 @@ import (
 func TestSplit1(t *testing.T) {
 	s := `key="value if not" and=value why=not`
 	c := []string{`key="value if not"`, `and=value`, "why=not"}
-	r := split(s)
+	r := Split(s)
 
 	assert.Equal(t, c, r)
 

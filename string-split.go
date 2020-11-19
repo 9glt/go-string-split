@@ -1,6 +1,6 @@
 package string_split
 
-func split(s string) []string {
+func Split(s string) []string {
 	var r []string
 	var start int
 	var flag bool
